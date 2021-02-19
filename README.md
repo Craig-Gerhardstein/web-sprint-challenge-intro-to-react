@@ -28,13 +28,16 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
-1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web.
+1. What is React JS and what problems does it solve? Support your answer with concepts introduced in class and from your personal research on the web. It solves the problem of having to make the same html components over and over again. with React JS you can make the component once and dynamically apply to where ever you need it at.
 
 1. Describe component state.
+component state is creating a varible with an initial state of being a string array null, and being able to take that varible and make it dynamic by freely changing the set data to something else.
 
 1. Describe props.
+props are properties or pieces of information that you can pass down through components to be able to access that data within another file so the components can use said data
 
 1. What are side effects, and how do you sync effects in a React component to changes of certain state or props?
+Side effects are anything that affects a function outside of it's scope, fetching data from an api is a side effect, there are two types of side effects ones that require clean up and ones that dont.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade.
 
@@ -60,7 +63,7 @@ Your finished project must include all of the following requirements:
 - [ ] Use the following API:
   - [Star Wars API](https://swapi.dev/)
 - [ ] Use the documentation and Google to learn how to fetch characters from your API.
-- [ ] Obtain a list of characters. One or several requests might be needed, depending on the API.
+- [ ] Obtain a list of characters. One or several requests might be needed, depending on the API .
 - [ ] Set the list of characters into state.
 - [ ] Render your characters to the screen:
   - Build a React component named 'Character' to render an individual character.
